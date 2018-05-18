@@ -1,47 +1,93 @@
 # awesome-erlang
 
-A curated list of awesome Erlang frameworks, libraries and software.
+# Awesome Erlang
+A categorized list of awesome Erlang frameworks, libraries and software.
 
+## [Erlang Core](#erlang-core)
 * [erlang/otp](https://github.com/erlang/otp) - Erlang/OTP
-* [ninenines/cowboy](https://github.com/ninenines/cowboy) - Small, fast, modern HTTP server for Erlang/OTP.
-* [processone/ejabberd](https://github.com/processone/ejabberd) - Robust, ubiquitous and massively scalable Jabber / XMPP Instant Messaging platform
-* [emqtt/emqttd](https://github.com/emqtt/emqttd) - EMQ - Erlang MQTT Broker
 * [happi/theBeamBook](https://github.com/happi/theBeamBook) - A description of the Erlang Runtime System ERTS and the virtual Machine BEAM.
-* [ChicagoBoss/ChicagoBoss](https://github.com/ChicagoBoss/ChicagoBoss) - Erlang web MVC, now featuring Comet
-* [mochi/mochiweb](https://github.com/mochi/mochiweb) - MochiWeb is an Erlang library for building lightweight HTTP servers.
+
+## [BEAM Languages](#beam-languages)
 * [rvirding/lfe](https://github.com/rvirding/lfe) - Lisp Flavoured Erlang (LFE)
-* [processone/tsung](https://github.com/processone/tsung) - Tsung is a high-performance benchmark framework for various protocols including HTTP, XMPP, LDAP, etc.
-* [erlio/vernemq](https://github.com/erlio/vernemq) - A distributed MQTT message broker based on Erlang/OTP
-* [leo-project/leofs](https://github.com/leo-project/leofs) - The LeoFS Storage System
-* [devinus/poolboy](https://github.com/devinus/poolboy) - A hunky Erlang worker pool factory
-* [alpaca-lang/alpaca](https://github.com/alpaca-lang/alpaca) - Functional programming inspired by ML for the Erlang VM
-* [esl/MongooseIM](https://github.com/esl/MongooseIM) - MongooseIM is a mobile messaging platform with focus on performance and scalability
-* [rebar/rebar](https://github.com/rebar/rebar) - Deprecated Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases. We encourage you to move to https://github.com/erlang/rebar3.
-* [erlang-lager/lager](https://github.com/erlang-lager/lager) - A logging framework for Erlang/OTP
-* [nitrogen/nitrogen](https://github.com/nitrogen/nitrogen) - Nitrogen Web Framework for Erlang (now with websockets!)
-* [ferd/recon](https://github.com/ferd/recon) - Collection of functions and scripts to debug Erlang in production.
-* [benoitc/hackney](https://github.com/benoitc/hackney) - simple HTTP client in Erlang
-* [erlang/rebar3](https://github.com/erlang/rebar3) - Erlang build tool that makes it easy to compile and test Erlang applications and releases.
-* [uwiger/gproc](https://github.com/uwiger/gproc) - Extended process registry for Erlang
-* [tarcieri/reia](https://github.com/tarcieri/reia) - Ruby-like hybrid OOP/functional programming language for BEAM, the Erlang VM
-* [lasp-lang/lasp](https://github.com/lasp-lang/lasp) - Prototype implementation of Lasp in Erlang.
-* [knutin/elli](https://github.com/knutin/elli) - Simple, robust and performant Erlang web server
-* [rustyio/sync](https://github.com/rustyio/sync) - On-the-fly recompiling and reloading in Erlang. Code without friction.
-* [ostinelli/misultin](https://github.com/ostinelli/misultin) - Misultin (pronounced mee-sool-téen) is an Erlang library for building fast lightweight HTTP(S) servers, which also supports websockets.
-* [rvirding/luerl](https://github.com/rvirding/luerl) - Lua in Erlang
-* [proper-testing/proper](https://github.com/proper-testing/proper) - PropEr: a QuickCheck-inspired property-based testing tool for Erlang
-* [talentdeficit/jsx](https://github.com/talentdeficit/jsx) - an erlang application for consuming, producing and manipulating json. inspired by yajl
-* [eproxus/meck](https://github.com/eproxus/meck) - A mocking library for Erlang
-* [zotonic/zotonic](https://github.com/zotonic/zotonic) - Zotonic - The Erlang Web Framework & CMS
-* [boundary/folsom](https://github.com/boundary/folsom) - Expose Erlang Events and Metrics
-* [wooga/eredis](https://github.com/wooga/eredis) - Erlang Redis client
-* [erlcloud/erlcloud](https://github.com/erlcloud/erlcloud) - AWS APIs library for Erlang (Amazon EC2, S3, SQS, DDB,  ELB and etc)
-* [aeternity/epoch](https://github.com/aeternity/epoch) - æternity testnet: solving scalability problems by making sense of state-channels
 * [clojerl/clojerl](https://github.com/clojerl/clojerl) - Clojure for the Erlang VM
-* [erlware/relx](https://github.com/erlware/relx) - Sane, simple release creation for Erlang
+* [rvirding/luerl](https://github.com/rvirding/luerl) - Lua in Erlang
+* [alpaca-lang/alpaca](https://github.com/alpaca-lang/alpaca) - Functional programming inspired by ML for the Erlang VM
+* [lasp-lang/lasp](https://github.com/lasp-lang/lasp) - Prototype implementation of Lasp in Erlang.
+* [tarcieri/reia](https://github.com/tarcieri/reia) - **DEAD** Ruby-like hybrid OOP/functional programming language for BEAM, the Erlang VM
+
+## [Languge Interop/FFI](#language-interop)
 * [hdima/erlport](https://github.com/hdima/erlport) - ErlPort - connect Erlang to other languages
-* [ferd/erlang-history](https://github.com/ferd/erlang-history) - Hacks to add shell history to Erlang's shell
+
+## [Web Servers](#web-servers)
+* [ninenines/cowboy](https://github.com/ninenines/cowboy) - Small, fast, modern HTTP server for Erlang/OTP.
+* [mochi/mochiweb](https://github.com/mochi/mochiweb) - MochiWeb is an Erlang library for building lightweight HTTP servers.
+* [knutin/elli](https://github.com/knutin/elli) - Simple, robust and performant Erlang web server
+* [ostinelli/misultin](https://github.com/ostinelli/misultin) - Misultin (pronounced mee-sool-téen) is an Erlang library for building fast lightweight HTTP(S) servers, which also supports websockets.
+## [Web Frameworks](#web-framework)
+* [ChicagoBoss/ChicagoBoss](https://github.com/ChicagoBoss/ChicagoBoss) - Erlang web MVC, now featuring Comet
+* [nitrogen/nitrogen](https://github.com/nitrogen/nitrogen) - Nitrogen Web Framework for Erlang (now with websockets!)
+
+## [Content Management](#cms)
+* [zotonic/zotonic](https://github.com/zotonic/zotonic) - Zotonic - The Erlang Web Framework & CMS
+
+## [Web Clients](#web-clients)
+* [benoitc/hackney](https://github.com/benoitc/hackney) - simple HTTP client in Erlang
+
 * [cmullaparthi/ibrowse](https://github.com/cmullaparthi/ibrowse) - Erlang HTTP client
+
+## [Chat Servers](#chat-servers)
+* [processone/ejabberd](https://github.com/processone/ejabberd) - Robust, ubiquitous and massively scalable Jabber / XMPP Instant Messaging platform
+* [esl/MongooseIM](https://github.com/esl/MongooseIM) - MongooseIM is a mobile messaging platform with focus on performance and scalability
+
+## [Pub/Sub](#pubsub)
+* [emqtt/emqttd](https://github.com/emqtt/emqttd) - EMQ - Erlang MQTT Broker
+* [erlio/vernemq](https://github.com/erlio/vernemq) - A distributed MQTT message broker based on Erlang/OTP
+
+## [Benchmarking](#benchmark)
+* [processone/tsung](https://github.com/processone/tsung) - Tsung is a high-performance benchmark framework for various protocols including HTTP, XMPP, LDAP, etc.
+
+## [Data Storage](#data-storage)
+* [leo-project/leofs](https://github.com/leo-project/leofs) - The LeoFS Storage System
+
+## [Process Management/Workers](#process-worker)
+* [devinus/poolboy](https://github.com/devinus/poolboy) - A hunky Erlang worker pool factory
+* [uwiger/gproc](https://github.com/uwiger/gproc) - Extended process registry for Erlang
+
+## [Build Tools](#build-tools)
+* [erlang/rebar3](https://github.com/erlang/rebar3) - Erlang build tool that makes it easy to compile and test Erlang applications and releases.
+
+* [rebar/rebar](https://github.com/rebar/rebar) - **Deprecated** Erlang build tool that makes it easy to compile and test Erlang applications, port drivers and releases. We encourage you to move to https://github.com/erlang/rebar3.
+
+## [Logging](#logging)
+* [erlang-lager/lager](https://github.com/erlang-lager/lager) - A logging framework for Erlang/OTP
+
+## [Devops](#devops)
+* [ferd/recon](https://github.com/ferd/recon) - Collection of functions and scripts to debug Erlang in production.
+* [boundary/folsom](https://github.com/boundary/folsom) - Expose Erlang Events and Metrics
+* [erlware/relx](https://github.com/erlware/relx) - Sane, simple release creation for Erlang
+
+## [Development Tools](#dev-tools)
+* [rustyio/sync](https://github.com/rustyio/sync) - On-the-fly recompiling and reloading in Erlang. Code without friction.
+* [proper-testing/proper](https://github.com/proper-testing/proper) - PropEr: a QuickCheck-inspired property-based testing tool for Erlang
+* [eproxus/meck](https://github.com/eproxus/meck) - A mocking library for Erlang
+* [zhongwencool/observer_cli](https://github.com/zhongwencool/observer_cli) - Visualize Erlang/Elixir Nodes On The Command Line
+* [ferd/erlang-history](https://github.com/ferd/erlang-history) - Hacks to add shell history to Erlang's shell
+
+## [Protocols/Data Formats](#protocols)
+  ### [JSON](#json)
+* [talentdeficit/jsx](https://github.com/talentdeficit/jsx) - an erlang application for consuming, producing and manipulating json. inspired by yajl
+
+## [Database CLients](#db-client)
+* [wooga/eredis](https://github.com/wooga/eredis) - Erlang Redis client
+
+## [Cloud APIs](#cloud-api)
+* [erlcloud/erlcloud](https://github.com/erlcloud/erlcloud) - AWS APIs library for Erlang (Amazon EC2, S3, SQS, DDB,  ELB and etc)
+
+## [CryptoCurrency/BlockChain](#blockchain)
+* [aeternity/epoch](https://github.com/aeternity/epoch) - æternity testnet: solving scalability problems by making sense of state-channels
+
+
+
 * [boundary/flake](https://github.com/boundary/flake) - A decentralized, k-ordered id generation service in Erlang
 * [zhongwencool/observer_cli](https://github.com/zhongwencool/observer_cli) - Visualize Erlang/Elixir Nodes On The Command Line
 * [erlanglab/erlangpl](https://github.com/erlanglab/erlangpl) - Tool for developers working with systems running on the Erlang VM (BEAM). It helps with performance analysis.
